@@ -5,6 +5,22 @@
     box-sizing: border-box;
 }
 
+
+/* FLEX */
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-bt{
+    justify-content: space-between;
+}
+
+
+
+
 /* TAG */
 
 
@@ -13,6 +29,19 @@
                     HEADER
  ................................................................*/
 
+header{
+    border: 1px solid purple;
+    background-color: rgb(0, 132, 253);
+}
+
+header img, 
+header i{
+    padding: 1rem;
+}
+
+.fa-bars{
+    font-size: 28px;
+}
 
 
 
