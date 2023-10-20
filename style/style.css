@@ -89,28 +89,57 @@ header i{
     border-radius: 100px;
 }
 
-.lillac-button{
-    padding: 0.5rem;
+.lillac-button,
+.bg-lillac{
     background-color: rgb(151, 146, 228);
-    border-radius: 50px;
 }
 
 
 
 /* general */
 
-.white-text{
+.white-text,
+.bg-black {
     color: white;
 }
 
+button{
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: none;
+
+}
 
  /* ...............................................................
                     FOOTER
  ................................................................*/
 
+.uppercase{
+    text-transform: uppercase;
+}
 
+.white-button{
+    background-color: white;
+    color: rgb(151, 146, 228);
+    width: 140px;
+}
 
+.middot{
+    font-size: 3rem;
+    vertical-align: middle;
+}
 
+.underline{
+    text-decoration: underline;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+footer div.flex span.underline{
+    color: rgb(151, 146, 228);
+}
 
 
 
