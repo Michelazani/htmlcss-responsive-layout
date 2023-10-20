@@ -99,7 +99,8 @@ header i{
 /* general */
 
 .white-text,
-.bg-black {
+.bg-black,
+.bg-lillac {
     color: white;
 }
 
@@ -141,6 +142,11 @@ footer div.flex span.underline{
     color: rgb(151, 146, 228);
 }
 
+.text-yellow{
+    color: rgb(253, 193, 95);
+    font-size: 3rem;
+    font-weight: bold;
+}
 
 
 /* ...............................................................
