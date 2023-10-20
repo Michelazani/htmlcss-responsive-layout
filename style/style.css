@@ -96,11 +96,22 @@ header i{
 
 main section ,
 section.about-us img,
-section.about-us button.lillac-button
+section.about-us button.lillac-button, 
 {
     margin: 2rem;
 }
 
+
+.fa-quote-left{
+    position: relative;
+    top: 81px;
+    left: 61px;
+    font-size: 60px;
+}
+
+.padding-bottom{
+    padding-bottom: 2rem;
+}
 
 
 /* general */
@@ -157,7 +168,9 @@ section.about-us p {
 }
 
 footer div.flex span.underline,
-section.about-us h2{
+section.about-us h2,
+section.about-us h3
+{
     color: rgb(151, 146, 228);
 }
 
@@ -178,6 +191,7 @@ footer div.bg-lillac h2 {
     text-align: center;
 }
 
+section.about-us ,
 footer button.white-button{
     margin-top: 2rem;
 }
