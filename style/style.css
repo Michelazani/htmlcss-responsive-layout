@@ -94,9 +94,13 @@ header i{
     background-color: rgb(151, 146, 228);
 }
 
-main section {
+main section ,
+section.about-us img,
+section.about-us button.lillac-button
+{
     margin: 2rem;
 }
+
 
 
 /* general */
@@ -112,12 +116,16 @@ button{
     padding: 0.5rem;
     border-radius: 50px;
     border: none;
-
 }
 
-h2{
+h2, 
+h3{
     font-size: xx-large;
 }
+
+section.about-us p {
+    line-height: 2rem;
+  }
 
 
  /* ...............................................................
@@ -148,7 +156,8 @@ h2{
     font-size: 0.9rem;
 }
 
-footer div.flex span.underline{
+footer div.flex span.underline,
+section.about-us h2{
     color: rgb(151, 146, 228);
 }
 
