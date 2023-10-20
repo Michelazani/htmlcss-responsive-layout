@@ -115,6 +115,11 @@ button{
 
 }
 
+h2{
+    font-size: xx-large;
+}
+
+
  /* ...............................................................
                     FOOTER
  ................................................................*/
@@ -164,6 +169,9 @@ footer div.bg-lillac h2 {
     text-align: center;
 }
 
+footer button.white-button{
+    margin-top: 2rem;
+}
 
 
 
