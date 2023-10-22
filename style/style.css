@@ -63,6 +63,21 @@ header i{
     margin: 1rem 0;  
  }
 
+section.app p{
+    text-align: center;
+}
+section.app div.column-width{
+    background-color: rgb(181, 221, 255);
+}
+
+.blue-button{
+    background-color: rgb(0, 132, 253);
+    padding: 0.5rem 2rem;
+}
+
+.fa-apple{
+    padding-right: 0.5rem;
+}
 
 
  /* 2 section strategic-planning*/
@@ -196,8 +211,17 @@ footer button.white-button{
     margin-top: 2rem;
 }
 
+/* 
+footer ul{
+    font-size: 0.7rem;
+    
+} */
 
 
+section.about-us button,
+footer p.s-container{
+    margin-bottom: 2rem;
+}
 
 
 /* ...............................................................
