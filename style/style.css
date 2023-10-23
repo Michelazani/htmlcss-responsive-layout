@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -105,7 +106,8 @@ section.app div.column-width{
 }
 
 .lillac-button,
-.bg-lillac{
+.bg-lillac,
+section.benefit{
     background-color: rgb(151, 146, 228);
 }
 
@@ -134,7 +136,9 @@ section.about-us button.lillac-button,
 .white-text,
 .bg-grey,
 .bg-lillac,
-span .underline-white{
+span .underline-white,
+section.strategic-planning h2,
+section.benefit h2{
     color: white;
 }
 
@@ -184,7 +188,8 @@ section.about-us p {
 
 footer div.flex span.underline,
 section.about-us h2,
-section.about-us h3
+section.about-us h3, 
+section.testimonials h2
 {
     color: rgb(151, 146, 228);
 }
@@ -232,7 +237,7 @@ footer p.s-container{
 
  /* TBALET */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 576px) {
     
 }
 
