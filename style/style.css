@@ -87,6 +87,20 @@ section.app div.column-width{
     width: 100%;
 }
 
+section.strategic-planning div.card div.column{
+    background-color: white;
+}
+
+section.strategic-planning div.card div.column button{
+    padding: 0.5rem;
+    width: 10%;
+}
+
+
+.italic{
+    font-style: italic;
+}
+
 /* 3 section testimonials */
 
 .strategic-planning{
@@ -148,8 +162,7 @@ button{
     border: none;
 }
 
-h2, 
-h3{
+h2{
     font-size: xx-large;
 }
 
