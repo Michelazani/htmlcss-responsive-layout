@@ -145,7 +145,9 @@ section.testimonials div.img{
   right: 25px;
 }
 
-
+.virgolette{
+    font-size: 2rem;
+}
 
 
 /* 4 section benefit*/
@@ -180,7 +182,7 @@ section.about-us button.lillac-button {
 }
 
 
-.fa-quote-left{
+.quote-on-img{
     position: relative;
     top: 81px;
     left: 61px;
