@@ -119,11 +119,18 @@ section.strategic-planning div.card div.column button{
 
 /* 3 section testimonials */
 
-section.testimonials img{
-    width: 100%;
+section.testimonials div.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
-
+.img-circle{
+  height: 100%;
+  position: relative;
+  right: 25px;
+}
 /* 4 section benefit*/
 
 
