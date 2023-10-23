@@ -337,19 +337,20 @@ footer p.s-container{
 
 @media screen and (min-width: 576px) {
     .s-container{
-        min-width: 576px;        
+        min-width: 576px; 
+        display: flex;      
+        flex-wrap: wrap;
+        justify-content: space-between;
+
     }
     
 
     section.app div.column-width{
-        width: calc((100% / 3) - 2rem);
-        flex-wrap: wrap;
-        flex-direction: row;
+        width: calc((100% / 3) - 1rem);
      }
-
-
-     section.benefit{
-        
+     
+     section.app div.width-x2{
+        width: calc(100% / 3 x 2) ;
      }
 
     
