@@ -336,8 +336,35 @@ footer p.s-container{
  /* TBALET */
 
 @media screen and (min-width: 576px) {
+    .s-container{
+        min-width: 576px;        
+    }
     
+
+    section.app div.column-width{
+        width: calc((100% / 3) - 2rem);
+        flex-wrap: wrap;
+        flex-direction: row;
+     }
+
+
+
+     section.testimonials div.column-width:not(.uppercase){
+        flex-direction: row;
+     }
+
+
+     section.benefit div.column{
+        
+     }
+     section.benefit div.column-width{
+        width: calc(100% / 2 - 2rem ) ;
+     }
 }
+
+
+
+
 
 
 
