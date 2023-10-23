@@ -277,7 +277,8 @@ section.testimonials div.column-width p{
     vertical-align: middle;
 }
 
-.underline{
+.underline, 
+.underline-white{
     text-decoration: underline;
 }
 
@@ -302,7 +303,7 @@ section.benefit h3{
 }
 
 footer div p.margin {
-    padding: 2rem;
+    padding: 2rem 4rem;
     text-align: center;
 }
 
@@ -336,12 +337,13 @@ footer p.s-container{
  /* TBALET */
 
 @media screen and (min-width: 576px) {
+
+    
     .s-container{
         min-width: 576px; 
         display: flex;      
         flex-wrap: wrap;
         justify-content: space-between;
-
     }
     
 
@@ -350,18 +352,41 @@ footer p.s-container{
      }
      
      section.app div.width-x2{
-        width: calc(100% / 3 x 2) ;
+        width: calc(100% / 3 * 2) ;
      }
 
-    
      section.benefit div.media-row{
-        width: calc(100% / 2 - 2rem ) ;
+        min-width: 576px; 
+        display: flex;      
+        flex-wrap: wrap;
+        justify-content: space-between;
      }
 
-     section.benefit div.media-row,
+     section.benefit div.column-width{
+        width: calc((100% / 2) - 1rem );
+
+     }
+
+
      section.about-us div.media-row{
+        display: flex ;
         flex-direction: row;
      }
+
+     section.about-us div.bigger{
+        width: 60%;
+        margin-right: 2rem;
+     }
+
+
+     section.about-us div.smaller{
+        width: 40%;
+     }
+
+     footer p.s-container{
+        justify-content: center;
+     }
+
 }
 
 
