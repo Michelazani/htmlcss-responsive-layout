@@ -80,11 +80,27 @@ section.app div.column-width{
     padding-right: 0.5rem;
 }
 
+.s-dimension-img{
+    width: 75%;
+    padding-top: 2rem;
+}
+
+section.app h3{
+    color: rgb(0, 127, 253);
+}
+
+section.app div.s-container i:not(i.fa-apple){
+    font-size: 3.5rem;
+}
 
  /* 2 section strategic-planning*/
 
 .dimension-img{
     width: 100%;
+}
+
+.strategic-planning{
+    background-color: rgb(149, 147, 230);
 }
 
 section.strategic-planning div.card div.column{
@@ -103,8 +119,8 @@ section.strategic-planning div.card div.column button{
 
 /* 3 section testimonials */
 
-.strategic-planning{
-    background-color: rgb(149, 147, 230);
+section.testimonials img{
+    width: 100%;
 }
 
 
@@ -127,8 +143,7 @@ section.benefit{
 
 main section ,
 section.about-us img,
-section.about-us button.lillac-button, 
-{
+section.about-us button.lillac-button {
     margin: 2rem;
 }
 
@@ -168,8 +183,16 @@ h2{
 
 section.about-us p {
     line-height: 2rem;
-  }
+}
 
+section.app, 
+section.strategic-planning,
+section.testimonials,
+section.benefit,
+section.about-us{
+    padding: 2rem 0;
+
+}
 
  /* ...............................................................
                     FOOTER
