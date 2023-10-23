@@ -348,19 +348,22 @@ footer p.s-container{
      }
 
 
-
-     section.testimonials div.column-width:not(.uppercase){
-        flex-direction: row;
-     }
-
-
-     section.benefit div.column{
+     section.benefit{
         
      }
-     section.benefit div.column-width{
+
+    
+     section.benefit div.media-row{
         width: calc(100% / 2 - 2rem ) ;
      }
+
+     section.benefit div.media-row,
+     section.about-us div.media-row{
+        flex-direction: row;
+     }
 }
+
+
 
 
 
