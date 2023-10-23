@@ -47,6 +47,10 @@ header i{
     font-size: 28px;
 }
 
+
+ul{
+    display: none;
+}
  /* ...............................................................
                     MAIN
  ................................................................*/
@@ -338,7 +342,20 @@ footer p.s-container{
 
 @media screen and (min-width: 576px) {
 
-    
+    header ul{
+        list-style: none;
+        display:flex;
+        align-items: center;
+    }
+
+    li{
+        padding-right: 1rem;
+    }
+
+    header div.flex i{
+        display: none;
+    }
+
     .s-container{
         min-width: 576px; 
         display: flex;      
@@ -388,14 +405,6 @@ footer p.s-container{
      }
 
 }
-
-
-
-
-
-
-
-
 
 
 /* DESKTOP */
