@@ -432,9 +432,42 @@ footer p.s-container{
         justify-content: space-between;
     }
     
-    /* COME SPOSTARE SOLO IMG  */
-    section.app div.column-width:nth-child(.s-dimension-img){
-        flex-direction: row;
+
+    .width-x2{
+        display: flex;
+    flex-direction: row;  
+     }
+
+
+    div.s-width{
+        width: calc(100% / 2 - 2rem);
+    }
+
+    div.s-width-2{
+        width: calc(100% / 2 - 2rem);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .s-dimension-img{
+        display: flex;
+        position: relative;
+        bottom: -50px;
+        left: 20px;
+    }
+
+    .media-cl{
+        display: block;
+    }
+
+    .width-30{
+        width: calc(30% / 2);
+    }
+
+    .width-70{
+        width: calc(70% / 2);
+
+
     }
 
 
