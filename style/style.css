@@ -59,14 +59,25 @@ header i{
 
  .column-width{
     width: 100%;
-    border: 1px solid purple;
     border-radius: 30px;
-    margin: 1rem 0;  
+    margin: 1rem 0; 
+    padding: 1rem; 
  }
 
-section.app p{
+section.app,
+section.testimonials
+{
     text-align: center;
 }
+
+.text-align-left{
+    text-align: left;
+}
+
+section.about-us{
+    text-align: justify;
+}
+
 section.app div.column-width{
     background-color: rgb(181, 221, 255);
 }
@@ -83,6 +94,7 @@ section.app div.column-width{
 .s-dimension-img{
     width: 75%;
     padding-top: 2rem;
+    padding-bottom: 0;
 }
 
 section.app h3{
@@ -103,7 +115,8 @@ section.app div.s-container i:not(i.fa-apple){
     background-color: rgb(149, 147, 230);
 }
 
-section.strategic-planning div.card div.column{
+section.strategic-planning div.card div.column,
+section.benefit div.column-width{
     background-color: white;
 }
 
@@ -131,9 +144,20 @@ section.testimonials div.img{
   position: relative;
   right: 25px;
 }
+
+
+
+
 /* 4 section benefit*/
 
+section.benefit button{
+    padding: 0.3rem 2rem;
+}
 
+.bigger-number{
+    font-size: 2.7rem;
+    justify-content: flex-start;
+}
 
 /* 5 section about us*/
 
@@ -144,14 +168,15 @@ section.testimonials div.img{
 
 .lillac-button,
 .bg-lillac,
-section.benefit{
+section.benefit,
+section.testimonials .column-width{
     background-color: rgb(151, 146, 228);
 }
 
 main section ,
 section.about-us img,
 section.about-us button.lillac-button {
-    margin: 2rem;
+    margin: 2rem 0;
 }
 
 
@@ -174,7 +199,9 @@ section.about-us button.lillac-button {
 .bg-lillac,
 span .underline-white,
 section.strategic-planning h2,
-section.benefit h2{
+section.benefit h2,
+section.testimonials div.column-width,
+section.benefit button{
     color: white;
 }
 
@@ -186,18 +213,33 @@ button{
 
 h2{
     font-size: xx-large;
+    padding: 1rem;
 }
 
-section.about-us p {
-    line-height: 2rem;
+h3{
+    padding: 1rem;
+}
+
+button{
+    margin: 1rem;
+}
+
+main {
+    line-height: 1.5rem;
 }
 
 section.app, 
 section.strategic-planning,
 section.testimonials,
 section.benefit,
-section.about-us{
+section.about-us
+{
     padding: 2rem 0;
+
+}
+
+section.testimonials div.column-width p{
+    margin: 1rem 0; 
 
 }
 
@@ -232,8 +274,9 @@ section.about-us{
 footer div.flex span.underline,
 section.about-us h2,
 section.about-us h3, 
-section.testimonials h2
-{
+section.testimonials h2,
+.bigger-number,
+section.benefit h3{
     color: rgb(151, 146, 228);
 }
 
@@ -259,12 +302,9 @@ footer button.white-button{
     margin-top: 2rem;
 }
 
-/* 
-footer ul{
-    font-size: 0.7rem;
-    
-} */
-
+.padding{
+    padding: 2rem;
+  }
 
 section.about-us button,
 footer p.s-container{
