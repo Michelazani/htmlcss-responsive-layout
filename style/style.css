@@ -329,6 +329,9 @@ footer button.white-button{
     padding: 2rem;
   }
 
+.width-100{
+    width: 100%;
+}
 section.about-us button,
 footer p.s-container{
     margin-bottom: 2rem;
