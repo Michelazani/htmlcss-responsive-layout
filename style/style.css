@@ -469,8 +469,11 @@ footer p.s-container{
 
     .width-70{
         width: calc(70% / 2);
+    }
 
-
+    /* COME SPOSTARE H3 */
+    .media-cl{
+        display: block;
     }
 
 
