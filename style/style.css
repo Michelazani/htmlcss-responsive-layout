@@ -406,6 +406,10 @@ footer p.s-container{
      .container{
         max-width: 768px;
     }
+    section.testimonials div.width-70{
+        width: 80%;
+        padding: 2rem 0;
+    }
 
 }
 
